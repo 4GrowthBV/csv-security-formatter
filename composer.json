@@ -1,0 +1,24 @@
+{
+    "name": "inthere/csv-security-formatter",
+    "description": "Formatter for thephpleague/csv package to increase security for csv exports with user generated content",
+    "authors": [
+        {
+            "name": "Dick van der Heiden",
+            "email": "d.vanderheiden@inthere.nl"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit" : "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "InThere\\CsvSecurityFormatter\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "InThere\\CsvSecurityFormatter\\Tests\\": "tests"
+        }
+    }
+}
